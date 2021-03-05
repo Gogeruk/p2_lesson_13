@@ -1,0 +1,65 @@
+
+1.
+    //////////    DONE    //////////
+    Реализовать механизм входа и выхода пользователя из системы.
+    //////////    DONE    //////////
+
+2.
+    //////////    DONE    //////////
+    Закрыть все маршруты админки от общего доступа. 
+    Напротив, разрешить выходить из системы только аутентифицированным пользователям.
+    //////////    DONE    //////////
+
+    //////////    DONE    //////////
+
+3.
+    1)
+    *** Реализовать актуализацию хеша пароля при входе пользователя в систему. 
+    Перед обновлением проверить нуждается ли алгоритм в обновлении или нет. 
+
+    // NOTE //  См. фасад Auth и аналог функции password_needs_rehash.
+
+    !!!
+    https://stackoverflow.com/questions/41969122/when-do-i-need-to-use-password-needs-rehash
+//////////    DONE    //////////
+
+///
+
+
+ptoy@example.org
+password
+
+//
+
+
+
+
+
+$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi 
+
+
+|  1 | Kamryn Runolfsdottir  | ptoy@example.org            | 2021-03-03 05:27:44 | $2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi | cFlthtKCLX     | 2021-03-03 05:27:45 | 2021-03-03 05:27:45 |
+
+///
+
+ptoy@example.org 
+
+$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi
+
+
+DOESNT LET ME IN 
+insert into users(name, email, password) VALUES ("poop", "poop@mail.com", 11111);
+DOESNT LET ME IN 
+
+
+
+
+
+
+
+
+
+
+
+
+//
